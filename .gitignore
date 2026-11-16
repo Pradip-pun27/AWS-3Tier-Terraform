@@ -1,0 +1,15 @@
+# Terraform local directories and state files
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+
+# Sensitive variable definitions (keep terraform.tfvars.example tracked)
+terraform.tfvars
+*.auto.tfvars
+
+# SSH keys & OS files
+*.pem
+.DS_Store

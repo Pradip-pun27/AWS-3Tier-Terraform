@@ -1,0 +1,11 @@
+aws_region           = "ap-south-1"
+project_name         = "php-3tier"
+environment          = "dev"
+instance_type        = "t3.micro"
+asg_min_size         = 1
+asg_desired_capacity = 2
+asg_max_size         = 3
+db_instance_class    = "db.t3.micro"
+db_name              = "student_portal"
+db_username          = "admin"
+db_password          = "ChangeMeStrongPass2026!"
