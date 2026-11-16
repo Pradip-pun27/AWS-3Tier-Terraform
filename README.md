@@ -51,7 +51,7 @@ The stack deploys a decoupled **HTML5/CSS3/Vanilla JS** frontend, a **PHP 8.3 (P
 └── outputs.tf                 # Deployment outputs (ALB URL, VPC ID, RDS endpoint)
 ```
 
-## After u successfully clon this repo Configure your variables
+## After u successfully cloned this repo Configure your variables
 Copy the example variables file and set a strong database password:
 - cp terraform.tfvars.example terraform.tfvars
 - nano terraform.tfvars
