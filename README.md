@@ -33,9 +33,9 @@ The stack deploys a decoupled **HTML5/CSS3/Vanilla JS** frontend, a **PHP 8.3 (P
 │   • Amazon RDS MySQL 8.0 (Publicly Accessible = False)                  │
 │   • Route table has NO Internet Gateway and NO NAT Gateway              │
 └─────────────────────────────────────────────────────────────────────────┘
+```
 
-
-
+```text
 .
 ├── .gitignore                 # Excludes local state, .terraform cache, and secrets
 ├── README.md                  # Project documentation
@@ -49,6 +49,7 @@ The stack deploys a decoupled **HTML5/CSS3/Vanilla JS** frontend, a **PHP 8.3 (P
 ├── alb.tf                     # Application Load Balancer, Target Group & HTTP Listener
 ├── user_data.sh.tftpl         # Server bootstrap script & PHP/HTML application source
 └── outputs.tf                 # Deployment outputs (ALB URL, VPC ID, RDS endpoint)
+```
 
 ## Configure your variables
 Copy the example variables file and set a strong database password:
